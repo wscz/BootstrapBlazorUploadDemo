@@ -1,0 +1,29 @@
+﻿@page "/基础用法"
+<h3>基础用法</h3>
+<h4>通过点击上传文件，当选中文件并确认后，文件会直接上传到指定文件夹。</h4>
+<div class="row g-3">
+    <div class="col-12">
+        <InputUpload TValue="string" ShowDeleteButton="true" OnChange="@OnFileChange" OnDelete="@OnFileDelete"></InputUpload>
+    </div>
+</div>
+
+@code
+{
+    private string _baseDir = "UploadFiles\\";
+
+    private Task OnFileChange(UploadFile file)
+    {
+        file.SaveToFile(_baseDir + file.OriginFileName);
+        return Task.FromResult(true);
+    }
+
+    private Task<bool> OnFileDelete(UploadFile file)
+    {
+        var path = _baseDir + file.OriginFileName;
+        if (File.Exists(path))
+        {
+            File.Delete(path);
+        }
+        return Task.FromResult(true);
+    }
+}
