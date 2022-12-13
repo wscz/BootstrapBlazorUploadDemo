@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BootstrapBlazor_Server_Upload_Demo
+build_property.RootNamespace = BootstrapBlazor_Server_Upload_Demo
+build_property.ProjectDir = D:\Documents\GitHub\BootstrapBlazorUploadDemo\src\BootstrapBlazor_Server_Upload_Demo\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Documents\GitHub\BootstrapBlazorUploadDemo\src\BootstrapBlazor_Server_Upload_Demo
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Pages/上传文件夹.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNc5LiK5Lyg5paH5Lu25aS5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Pages/基础用法.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNc5Z+656GA55So5rOVLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Pages/已上传文件列表.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNc5bey5LiK5Lyg5paH5Lu25YiX6KGoLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Pages/点击上传.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNc54K55Ye75LiK5LygLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Pages/表单应用.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNc6KGo5Y2V5bqU55SoLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s43a3bt6wa
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-64d1t9fq5f
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/GitHub/BootstrapBlazorUploadDemo/src/BootstrapBlazor_Server_Upload_Demo/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

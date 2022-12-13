@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BootstrapBlazor_Server_Upload_Demo.props" />
+</Project>
