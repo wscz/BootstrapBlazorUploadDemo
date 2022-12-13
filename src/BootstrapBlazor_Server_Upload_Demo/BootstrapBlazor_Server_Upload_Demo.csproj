@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <AssemblyName>BootstrapBlazor_Server_Upload_Demo</AssemblyName>
+        <RootNamespace>BootstrapBlazor_Server_Upload_Demo</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BootstrapBlazor" Version="7.1.5" />
+      <PackageReference Include="BootstrapBlazor.FontAwesome" Version="7.0.2" />
+    </ItemGroup>
+
+</Project>

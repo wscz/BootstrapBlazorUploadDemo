@@ -1,0 +1,41 @@
+﻿@page "/上传文件夹"
+<h3>上传文件夹</h3>
+<h3>注意，上传文件夹并不会保留原有的目录结构，而是直接上传文件夹内的所有文件。</h3>
+<div class="row g-3">
+    <div class="col-12 col-sm-6">
+        <ButtonUpload TValue="string" IsDirectory="true" OnChange="@OnUploadFolder" OnDelete="@(fileName => Task.FromResult(true))"></ButtonUpload>
+    </div>
+</div>
+@code {
+    private string _baseDir = "UploadFiles\\";
+    private CancellationTokenSource? ReadToken { get; set; }
+    private static long MaxFileLength => 200 * 1024 * 1024;
+    private async Task OnUploadFolder(UploadFile file)
+    {
+    // 上传文件夹时会多次回调此方法
+        await SaveToFile(file);
+    }
+    private async Task<bool> SaveToFile(UploadFile file)
+    {
+    // Server Side 使用
+    // Web Assembly 模式下必须使用 webapi 方式去保存文件到服务器或者数据库中
+    // 生成写入文件名称
+        var ret = false;
+        file.FileName = $"{Path.GetFileNameWithoutExtension(file.OriginFileName)}-{DateTimeOffset.Now:yyyyMMddHHmmss}{Path.GetExtension(file.OriginFileName)}";
+        var fileName = Path.Combine(_baseDir, file.FileName);
+
+        ReadToken ??= new CancellationTokenSource();
+        ret = await file.SaveToFile(fileName, MaxFileLength, ReadToken.Token);
+
+        if (ret)
+        {
+    // 保存成功
+            file.PrevUrl = $"{_baseDir}{file.FileName}";
+        }
+        else
+        {
+            file.Code = 1;
+        }
+        return ret;
+    }
+}
